@@ -10,7 +10,7 @@ import {completeTodo} from '../actions';
 class Todo extends Component {
 
     clickHandler = (e, index) => {
-        completeTodo(index)
+        this.props.completeTodo(index)
     }
 
     render() {
