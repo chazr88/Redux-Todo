@@ -1,0 +1,15 @@
+.NewTodo input { 
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    background-color: #000;
+    border: 2px solid #60dbfb;
+
+}
+
+.NewTodo button {
+    width: 100px;
+    height: 30px;
+    background-color: #60dbfb;
+    border: 1px solid #000;
+}

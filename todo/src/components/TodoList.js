@@ -5,13 +5,11 @@ import Todo from './Todo';
 class TodoList extends Component {
     
     render() {
-        console.log(this.props.todos)
         return (
-            <React.Fragment>
-                   
-                    <Todo />
+            <div className="TodoList">
+                <Todo />
+            </div>     
 
-            </React.Fragment>
         )
     }
 }

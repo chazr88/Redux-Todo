@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { addNewTodo } from '../actions';
+import './NewTodo.css';
 
 class NewTodo extends Component {
     state = {
@@ -22,7 +23,7 @@ class NewTodo extends Component {
 
     render() {
         return (
-            <div>
+            <div className="NewTodo">
                 <input
                 type="text"
                 value={this.state.newTodo}
